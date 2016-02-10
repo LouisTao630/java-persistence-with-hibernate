@@ -1,4 +1,4 @@
-package com.louis.exercise.hibernate;
+package com.louis.exercise.hibernate.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

@@ -4,7 +4,7 @@
 "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
 
-<hibernate-mapping> 
+<hibernate-mapping package="com.louis.exercise.hibernate.data"> 
 	<class name="Message" table="MESSAGE"> 
 		<id name="id" column="MESSAGE_ID"> 
 			<generator class="increment"/> 
